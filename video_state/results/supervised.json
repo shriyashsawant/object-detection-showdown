@@ -1,0 +1,123 @@
+{
+ "classes": [
+  "facing_camera",
+  "head_angled_down",
+  "head_turned_away"
+ ],
+ "steps": 303,
+ "step_s": 0.067,
+ "true_label_changes": 6,
+ "folds": 5,
+ "purge_steps": 8,
+ "seeds": [
+  0,
+  1,
+  2
+ ],
+ "results": {
+  "majority": {
+   "accuracy": 0.521,
+   "accuracy_range": [
+    0.521,
+    0.521
+   ],
+   "macro_f1": 0.228,
+   "flips": 0.0,
+   "confusion_seed0": [
+    [
+     158,
+     0,
+     0
+    ],
+    [
+     79,
+     0,
+     0
+    ],
+    [
+     66,
+     0,
+     0
+    ]
+   ]
+  },
+  "linear": {
+   "accuracy": 0.558,
+   "accuracy_range": [
+    0.548,
+    0.571
+   ],
+   "macro_f1": 0.554,
+   "flips": 28.3,
+   "confusion_seed0": [
+    [
+     96,
+     50,
+     12
+    ],
+    [
+     36,
+     39,
+     4
+    ],
+    [
+     5,
+     23,
+     38
+    ]
+   ]
+  },
+  "linear_smoothed": {
+   "accuracy": 0.543,
+   "accuracy_range": [
+    0.525,
+    0.568
+   ],
+   "macro_f1": 0.549,
+   "flips": 10.7,
+   "confusion_seed0": [
+    [
+     94,
+     55,
+     9
+    ],
+    [
+     44,
+     35,
+     0
+    ],
+    [
+     0,
+     23,
+     43
+    ]
+   ]
+  },
+  "gru": {
+   "accuracy": 0.569,
+   "accuracy_range": [
+    0.554,
+    0.578
+   ],
+   "macro_f1": 0.56,
+   "flips": 24.3,
+   "confusion_seed0": [
+    [
+     99,
+     49,
+     10
+    ],
+    [
+     37,
+     38,
+     4
+    ],
+    [
+     10,
+     19,
+     37
+    ]
+   ]
+  }
+ }
+}

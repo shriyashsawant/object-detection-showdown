@@ -1,0 +1,16 @@
+# big downloads (get_assets.py recreates them)
+detector_test/weights/
+detector_test/data/
+detector_test/images/0*.jpg
+*.pt
+*.pth
+
+# personal video and anything made from it
+*.mp4
+*.mov
+*.avi
+video_state/results/annotated.*
+
+.venv/
+__pycache__/
+.DS_Store

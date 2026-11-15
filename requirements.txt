@@ -1,0 +1,9 @@
+# Tested versions (Python 3.12, macOS / Apple M5). Newer versions will probably work.
+torch==2.15.0
+torchvision==0.29.2
+ultralytics==8.4.212
+lap==0.5.14            # object tracking (ByteTrack) in the video demo
+opencv-python
+numpy
+pillow
+matplotlib             # charts

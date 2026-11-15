@@ -1,0 +1,6 @@
+start_s,end_s,label
+0.0,1.9,facing_camera
+2.0,6.9,head_angled_down
+7.0,11.4,head_turned_away
+11.5,11.9,head_angled_down
+12.0,20.3,facing_camera

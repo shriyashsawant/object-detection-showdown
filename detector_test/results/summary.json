@@ -1,0 +1,2565 @@
+{
+ "000000000164": {
+  "image": "000000000164.jpg",
+  "size": [
+   640,
+   480
+  ],
+  "consensus_objects": 3,
+  "models": [
+   {
+    "model": "Faster R-CNN MobileNetV3",
+    "kind": "box",
+    "median_ms": 120.5,
+    "min_ms": 109.5,
+    "max_ms": 131.2,
+    "params_M": 19.4,
+    "weights_MB": 77.8,
+    "detections": 20,
+    "masks": null,
+    "mask_coverage": null,
+    "mean_conf": 0.707,
+    "sizes": {
+     "small": 12,
+     "medium": 6,
+     "large": 2
+    },
+    "consensus_recall": 1.0,
+    "only_this_model": 6,
+    "classes": {
+     "bottle": 3,
+     "chair": 1,
+     "cup": 2,
+     "dining table": 1,
+     "microwave": 2,
+     "oven": 1,
+     "refrigerator": 1,
+     "wine glass": 9
+    }
+   },
+   {
+    "model": "Faster R-CNN R50-FPN v2",
+    "kind": "box",
+    "median_ms": 387.9,
+    "min_ms": 375.1,
+    "max_ms": 421.7,
+    "params_M": 43.7,
+    "weights_MB": 175.2,
+    "detections": 46,
+    "masks": null,
+    "mask_coverage": null,
+    "mean_conf": 0.785,
+    "sizes": {
+     "small": 40,
+     "medium": 4,
+     "large": 2
+    },
+    "consensus_recall": 1.0,
+    "only_this_model": 8,
+    "classes": {
+     "bottle": 16,
+     "bowl": 2,
+     "chair": 1,
+     "cup": 10,
+     "dining table": 1,
+     "laptop": 1,
+     "microwave": 1,
+     "mouse": 1,
+     "refrigerator": 1,
+     "wine glass": 12
+    }
+   },
+   {
+    "model": "Mask R-CNN R50-FPN v2",
+    "kind": "mask",
+    "median_ms": 724.2,
+    "min_ms": 704.0,
+    "max_ms": 748.0,
+    "params_M": 46.4,
+    "weights_MB": 185.8,
+    "detections": 47,
+    "masks": 47,
+    "mask_coverage": 0.115,
+    "mean_conf": 0.737,
+    "sizes": {
+     "small": 40,
+     "medium": 5,
+     "large": 2
+    },
+    "consensus_recall": 1.0,
+    "only_this_model": 7,
+    "classes": {
+     "book": 1,
+     "bottle": 17,
+     "bowl": 2,
+     "chair": 1,
+     "cup": 9,
+     "dining table": 1,
+     "microwave": 1,
+     "refrigerator": 1,
+     "sink": 1,
+     "toothbrush": 1,
+     "wine glass": 12
+    }
+   },
+   {
+    "model": "yolo11n",
+    "kind": "box",
+    "median_ms": 6.0,
+    "min_ms": 5.7,
+    "max_ms": 6.6,
+    "params_M": 2.6,
+    "weights_MB": 5.6,
+    "detections": 2,
+    "masks": null,
+    "mask_coverage": null,
+    "mean_conf": 0.761,
+    "sizes": {
+     "small": 0,
+     "medium": 1,
+     "large": 1
+    },
+    "consensus_recall": 0.667,
+    "only_this_model": 0,
+    "classes": {
+     "chair": 1,
+     "microwave": 1
+    }
+   },
+   {
+    "model": "yolo11s",
+    "kind": "box",
+    "median_ms": 11.8,
+    "min_ms": 11.5,
+    "max_ms": 12.7,
+    "params_M": 9.5,
+    "weights_MB": 19.3,
+    "detections": 2,
+    "masks": null,
+    "mask_coverage": null,
+    "mean_conf": 0.843,
+    "sizes": {
+     "small": 0,
+     "medium": 1,
+     "large": 1
+    },
+    "consensus_recall": 0.667,
+    "only_this_model": 0,
+    "classes": {
+     "chair": 1,
+     "microwave": 1
+    }
+   },
+   {
+    "model": "yolo11m",
+    "kind": "box",
+    "median_ms": 30.5,
+    "min_ms": 30.3,
+    "max_ms": 31.3,
+    "params_M": 20.1,
+    "weights_MB": 40.7,
+    "detections": 3,
+    "masks": null,
+    "mask_coverage": null,
+    "mean_conf": 0.861,
+    "sizes": {
+     "small": 0,
+     "medium": 1,
+     "large": 2
+    },
+    "consensus_recall": 1.0,
+    "only_this_model": 0,
+    "classes": {
+     "chair": 1,
+     "microwave": 1,
+     "refrigerator": 1
+    }
+   },
+   {
+    "model": "yolo11l",
+    "kind": "box",
+    "median_ms": 37.3,
+    "min_ms": 36.7,
+    "max_ms": 40.7,
+    "params_M": 25.4,
+    "weights_MB": 51.4,
+    "detections": 4,
+    "masks": null,
+    "mask_coverage": null,
+    "mean_conf": 0.758,
+    "sizes": {
+     "small": 0,
+     "medium": 2,
+     "large": 2
+    },
+    "consensus_recall": 1.0,
+    "only_this_model": 0,
+    "classes": {
+     "chair": 1,
+     "dining table": 1,
+     "microwave": 1,
+     "refrigerator": 1
+    }
+   },
+   {
+    "model": "yolo11x",
+    "kind": "box",
+    "median_ms": 93.3,
+    "min_ms": 90.4,
+    "max_ms": 94.8,
+    "params_M": 57.0,
+    "weights_MB": 114.6,
+    "detections": 6,
+    "masks": null,
+    "mask_coverage": null,
+    "mean_conf": 0.719,
+    "sizes": {
+     "small": 2,
+     "medium": 2,
+     "large": 2
+    },
+    "consensus_recall": 1.0,
+    "only_this_model": 1,
+    "classes": {
+     "chair": 1,
+     "cup": 2,
+     "microwave": 1,
+     "refrigerator": 1,
+     "vase": 1
+    }
+   },
+   {
+    "model": "yolo12n",
+    "kind": "box",
+    "median_ms": 9.7,
+    "min_ms": 9.4,
+    "max_ms": 10.0,
+    "params_M": 2.6,
+    "weights_MB": 5.6,
+    "detections": 1,
+    "masks": null,
+    "mask_coverage": null,
+    "mean_conf": 0.87,
+    "sizes": {
+     "small": 0,
+     "medium": 0,
+     "large": 1
+    },
+    "consensus_recall": 0.333,
+    "only_this_model": 0,
+    "classes": {
+     "chair": 1
+    }
+   },
+   {
+    "model": "yolo12m",
+    "kind": "box",
+    "median_ms": 40.8,
+    "min_ms": 39.7,
+    "max_ms": 41.7,
+    "params_M": 20.2,
+    "weights_MB": 40.9,
+    "detections": 4,
+    "masks": null,
+    "mask_coverage": null,
+    "mean_conf": 0.727,
+    "sizes": {
+     "small": 1,
+     "medium": 1,
+     "large": 2
+    },
+    "consensus_recall": 1.0,
+    "only_this_model": 0,
+    "classes": {
+     "bottle": 1,
+     "chair": 1,
+     "microwave": 1,
+     "refrigerator": 1
+    }
+   },
+   {
+    "model": "yolo26n",
+    "kind": "box",
+    "median_ms": 6.4,
+    "min_ms": 6.1,
+    "max_ms": 6.6,
+    "params_M": 2.6,
+    "weights_MB": 5.5,
+    "detections": 1,
+    "masks": null,
+    "mask_coverage": null,
+    "mean_conf": 0.876,
+    "sizes": {
+     "small": 0,
+     "medium": 0,
+     "large": 1
+    },
+    "consensus_recall": 0.333,
+    "only_this_model": 0,
+    "classes": {
+     "chair": 1
+    }
+   },
+   {
+    "model": "yolo26m",
+    "kind": "box",
+    "median_ms": 32.9,
+    "min_ms": 30.8,
+    "max_ms": 34.2,
+    "params_M": 21.9,
+    "weights_MB": 44.3,
+    "detections": 5,
+    "masks": null,
+    "mask_coverage": null,
+    "mean_conf": 0.686,
+    "sizes": {
+     "small": 2,
+     "medium": 1,
+     "large": 2
+    },
+    "consensus_recall": 1.0,
+    "only_this_model": 0,
+    "classes": {
+     "bottle": 2,
+     "chair": 1,
+     "microwave": 1,
+     "refrigerator": 1
+    }
+   },
+   {
+    "model": "yolo26l",
+    "kind": "box",
+    "median_ms": 42.7,
+    "min_ms": 40.8,
+    "max_ms": 43.9,
+    "params_M": 26.3,
+    "weights_MB": 53.2,
+    "detections": 10,
+    "masks": null,
+    "mask_coverage": null,
+    "mean_conf": 0.704,
+    "sizes": {
+     "small": 7,
+     "medium": 1,
+     "large": 2
+    },
+    "consensus_recall": 1.0,
+    "only_this_model": 0,
+    "classes": {
+     "bottle": 3,
+     "chair": 1,
+     "cup": 4,
+     "microwave": 1,
+     "refrigerator": 1
+    }
+   },
+   {
+    "model": "rtdetr-l",
+    "kind": "box",
+    "median_ms": 70.7,
+    "min_ms": 66.5,
+    "max_ms": 72.3,
+    "params_M": 33.0,
+    "weights_MB": 66.5,
+    "detections": 23,
+    "masks": null,
+    "mask_coverage": null,
+    "mean_conf": 0.596,
+    "sizes": {
+     "small": 19,
+     "medium": 2,
+     "large": 2
+    },
+    "consensus_recall": 1.0,
+    "only_this_model": 1,
+    "classes": {
+     "bottle": 6,
+     "chair": 1,
+     "cup": 5,
+     "dining table": 1,
+     "microwave": 1,
+     "refrigerator": 1,
+     "wine glass": 8
+    }
+   },
+   {
+    "model": "yolo11n-seg",
+    "kind": "mask",
+    "median_ms": 9.0,
+    "min_ms": 8.6,
+    "max_ms": 9.3,
+    "params_M": 2.9,
+    "weights_MB": 6.2,
+    "detections": 1,
+    "masks": 1,
+    "mask_coverage": 0.026,
+    "mean_conf": 0.877,
+    "sizes": {
+     "small": 0,
+     "medium": 0,
+     "large": 1
+    },
+    "consensus_recall": 0.333,
+    "only_this_model": 0,
+    "classes": {
+     "chair": 1
+    }
+   },
+   {
+    "model": "yolo11m-seg",
+    "kind": "mask",
+    "median_ms": 52.9,
+    "min_ms": 49.8,
+    "max_ms": 55.0,
+    "params_M": 22.4,
+    "weights_MB": 45.4,
+    "detections": 3,
+    "masks": 3,
+    "mask_coverage": 0.067,
+    "mean_conf": 0.861,
+    "sizes": {
+     "small": 0,
+     "medium": 1,
+     "large": 2
+    },
+    "consensus_recall": 1.0,
+    "only_this_model": 0,
+    "classes": {
+     "chair": 1,
+     "microwave": 1,
+     "refrigerator": 1
+    }
+   },
+   {
+    "model": "yolo11l-seg",
+    "kind": "mask",
+    "median_ms": 61.7,
+    "min_ms": 59.6,
+    "max_ms": 62.1,
+    "params_M": 27.7,
+    "weights_MB": 56.1,
+    "detections": 4,
+    "masks": 4,
+    "mask_coverage": 0.073,
+    "mean_conf": 0.758,
+    "sizes": {
+     "small": 0,
+     "medium": 2,
+     "large": 2
+    },
+    "consensus_recall": 1.0,
+    "only_this_model": 0,
+    "classes": {
+     "chair": 1,
+     "dining table": 1,
+     "microwave": 1,
+     "refrigerator": 1
+    }
+   },
+   {
+    "model": "yolo26n-seg",
+    "kind": "mask",
+    "median_ms": 8.9,
+    "min_ms": 8.3,
+    "max_ms": 9.2,
+    "params_M": 3.1,
+    "weights_MB": 6.7,
+    "detections": 2,
+    "masks": 2,
+    "mask_coverage": 0.061,
+    "mean_conf": 0.689,
+    "sizes": {
+     "small": 0,
+     "medium": 0,
+     "large": 2
+    },
+    "consensus_recall": 0.667,
+    "only_this_model": 0,
+    "classes": {
+     "chair": 1,
+     "refrigerator": 1
+    }
+   },
+   {
+    "model": "yolo26m-seg",
+    "kind": "mask",
+    "median_ms": 54.0,
+    "min_ms": 47.2,
+    "max_ms": 57.3,
+    "params_M": 27.1,
+    "weights_MB": 54.8,
+    "detections": 5,
+    "masks": 5,
+    "mask_coverage": 0.042,
+    "mean_conf": 0.685,
+    "sizes": {
+     "small": 2,
+     "medium": 2,
+     "large": 1
+    },
+    "consensus_recall": 0.667,
+    "only_this_model": 1,
+    "classes": {
+     "bottle": 2,
+     "chair": 1,
+     "dining table": 1,
+     "microwave": 1
+    }
+   },
+   {
+    "model": "yolo26l-seg",
+    "kind": "mask",
+    "median_ms": 66.0,
+    "min_ms": 64.6,
+    "max_ms": 66.9,
+    "params_M": 31.5,
+    "weights_MB": 63.7,
+    "detections": 10,
+    "masks": 10,
+    "mask_coverage": 0.083,
+    "mean_conf": 0.659,
+    "sizes": {
+     "small": 6,
+     "medium": 2,
+     "large": 2
+    },
+    "consensus_recall": 1.0,
+    "only_this_model": 0,
+    "classes": {
+     "bottle": 2,
+     "chair": 1,
+     "cup": 2,
+     "dining table": 1,
+     "microwave": 1,
+     "refrigerator": 1,
+     "wine glass": 2
+    }
+   }
+  ]
+ },
+ "000000000196": {
+  "image": "000000000196.jpg",
+  "size": [
+   640,
+   480
+  ],
+  "consensus_objects": 17,
+  "models": [
+   {
+    "model": "Faster R-CNN MobileNetV3",
+    "kind": "box",
+    "median_ms": 121.7,
+    "min_ms": 117.0,
+    "max_ms": 122.1,
+    "params_M": 19.4,
+    "weights_MB": 77.8,
+    "detections": 22,
+    "masks": null,
+    "mask_coverage": null,
+    "mean_conf": 0.76,
+    "sizes": {
+     "small": 0,
+     "medium": 13,
+     "large": 9
+    },
+    "consensus_recall": 0.765,
+    "only_this_model": 2,
+    "classes": {
+     "bowl": 9,
+     "carrot": 5,
+     "cup": 1,
+     "dining table": 1,
+     "knife": 1,
+     "spoon": 5
+    }
+   },
+   {
+    "model": "Faster R-CNN R50-FPN v2",
+    "kind": "box",
+    "median_ms": 380.6,
+    "min_ms": 359.0,
+    "max_ms": 422.9,
+    "params_M": 43.7,
+    "weights_MB": 175.2,
+    "detections": 40,
+    "masks": null,
+    "mask_coverage": null,
+    "mean_conf": 0.773,
+    "sizes": {
+     "small": 8,
+     "medium": 21,
+     "large": 11
+    },
+    "consensus_recall": 0.941,
+    "only_this_model": 6,
+    "classes": {
+     "bowl": 11,
+     "broccoli": 2,
+     "carrot": 14,
+     "dining table": 1,
+     "knife": 1,
+     "pizza": 3,
+     "spoon": 8
+    }
+   },
+   {
+    "model": "Mask R-CNN R50-FPN v2",
+    "kind": "mask",
+    "median_ms": 720.2,
+    "min_ms": 709.8,
+    "max_ms": 728.4,
+    "params_M": 46.4,
+    "weights_MB": 185.8,
+    "detections": 40,
+    "masks": 40,
+    "mask_coverage": 0.795,
+    "mean_conf": 0.786,
+    "sizes": {
+     "small": 8,
+     "medium": 24,
+     "large": 8
+    },
+    "consensus_recall": 0.941,
+    "only_this_model": 5,
+    "classes": {
+     "bowl": 10,
+     "broccoli": 3,
+     "carrot": 15,
+     "dining table": 1,
+     "knife": 2,
+     "pizza": 2,
+     "spoon": 7
+    }
+   },
+   {
+    "model": "yolo11n",
+    "kind": "box",
+    "median_ms": 6.0,
+    "min_ms": 5.7,
+    "max_ms": 6.3,
+    "params_M": 2.6,
+    "weights_MB": 5.6,
+    "detections": 10,
+    "masks": null,
+    "mask_coverage": null,
+    "mean_conf": 0.671,
+    "sizes": {
+     "small": 0,
+     "medium": 3,
+     "large": 7
+    },
+    "consensus_recall": 0.471,
+    "only_this_model": 0,
+    "classes": {
+     "bowl": 8,
+     "dining table": 1,
+     "refrigerator": 1
+    }
+   },
+   {
+    "model": "yolo11s",
+    "kind": "box",
+    "median_ms": 12.2,
+    "min_ms": 11.4,
+    "max_ms": 12.4,
+    "params_M": 9.5,
+    "weights_MB": 19.3,
+    "detections": 14,
+    "masks": null,
+    "mask_coverage": null,
+    "mean_conf": 0.716,
+    "sizes": {
+     "small": 0,
+     "medium": 7,
+     "large": 7
+    },
+    "consensus_recall": 0.765,
+    "only_this_model": 0,
+    "classes": {
+     "bowl": 8,
+     "carrot": 3,
+     "dining table": 1,
+     "spoon": 2
+    }
+   },
+   {
+    "model": "yolo11m",
+    "kind": "box",
+    "median_ms": 31.9,
+    "min_ms": 31.4,
+    "max_ms": 32.5,
+    "params_M": 20.1,
+    "weights_MB": 40.7,
+    "detections": 18,
+    "masks": null,
+    "mask_coverage": null,
+    "mean_conf": 0.696,
+    "sizes": {
+     "small": 0,
+     "medium": 9,
+     "large": 9
+    },
+    "consensus_recall": 0.882,
+    "only_this_model": 0,
+    "classes": {
+     "bowl": 9,
+     "carrot": 3,
+     "dining table": 1,
+     "spoon": 5
+    }
+   },
+   {
+    "model": "yolo11l",
+    "kind": "box",
+    "median_ms": 44.0,
+    "min_ms": 42.6,
+    "max_ms": 45.0,
+    "params_M": 25.4,
+    "weights_MB": 51.4,
+    "detections": 21,
+    "masks": null,
+    "mask_coverage": null,
+    "mean_conf": 0.706,
+    "sizes": {
+     "small": 2,
+     "medium": 8,
+     "large": 11
+    },
+    "consensus_recall": 0.941,
+    "only_this_model": 0,
+    "classes": {
+     "bowl": 9,
+     "carrot": 5,
+     "dining table": 1,
+     "spoon": 6
+    }
+   },
+   {
+    "model": "yolo11x",
+    "kind": "box",
+    "median_ms": 94.0,
+    "min_ms": 93.5,
+    "max_ms": 95.0,
+    "params_M": 57.0,
+    "weights_MB": 114.6,
+    "detections": 20,
+    "masks": null,
+    "mask_coverage": null,
+    "mean_conf": 0.778,
+    "sizes": {
+     "small": 0,
+     "medium": 10,
+     "large": 10
+    },
+    "consensus_recall": 0.824,
+    "only_this_model": 0,
+    "classes": {
+     "bowl": 11,
+     "carrot": 1,
+     "dining table": 1,
+     "spoon": 7
+    }
+   },
+   {
+    "model": "yolo12n",
+    "kind": "box",
+    "median_ms": 10.4,
+    "min_ms": 9.8,
+    "max_ms": 14.6,
+    "params_M": 2.6,
+    "weights_MB": 5.6,
+    "detections": 10,
+    "masks": null,
+    "mask_coverage": null,
+    "mean_conf": 0.672,
+    "sizes": {
+     "small": 0,
+     "medium": 5,
+     "large": 5
+    },
+    "consensus_recall": 0.588,
+    "only_this_model": 0,
+    "classes": {
+     "bowl": 5,
+     "carrot": 2,
+     "dining table": 1,
+     "spoon": 2
+    }
+   },
+   {
+    "model": "yolo12m",
+    "kind": "box",
+    "median_ms": 42.0,
+    "min_ms": 41.0,
+    "max_ms": 42.5,
+    "params_M": 20.2,
+    "weights_MB": 40.9,
+    "detections": 18,
+    "masks": null,
+    "mask_coverage": null,
+    "mean_conf": 0.756,
+    "sizes": {
+     "small": 0,
+     "medium": 10,
+     "large": 8
+    },
+    "consensus_recall": 0.765,
+    "only_this_model": 0,
+    "classes": {
+     "bowl": 12,
+     "dining table": 1,
+     "spoon": 5
+    }
+   },
+   {
+    "model": "yolo26n",
+    "kind": "box",
+    "median_ms": 7.6,
+    "min_ms": 7.4,
+    "max_ms": 9.2,
+    "params_M": 2.6,
+    "weights_MB": 5.5,
+    "detections": 10,
+    "masks": null,
+    "mask_coverage": null,
+    "mean_conf": 0.687,
+    "sizes": {
+     "small": 0,
+     "medium": 2,
+     "large": 8
+    },
+    "consensus_recall": 0.471,
+    "only_this_model": 0,
+    "classes": {
+     "bowl": 8,
+     "carrot": 1,
+     "dining table": 1
+    }
+   },
+   {
+    "model": "yolo26m",
+    "kind": "box",
+    "median_ms": 34.9,
+    "min_ms": 33.1,
+    "max_ms": 36.6,
+    "params_M": 21.9,
+    "weights_MB": 44.3,
+    "detections": 20,
+    "masks": null,
+    "mask_coverage": null,
+    "mean_conf": 0.737,
+    "sizes": {
+     "small": 0,
+     "medium": 12,
+     "large": 8
+    },
+    "consensus_recall": 0.824,
+    "only_this_model": 0,
+    "classes": {
+     "bowl": 11,
+     "carrot": 2,
+     "dining table": 1,
+     "refrigerator": 1,
+     "spoon": 5
+    }
+   },
+   {
+    "model": "yolo26l",
+    "kind": "box",
+    "median_ms": 44.1,
+    "min_ms": 43.1,
+    "max_ms": 44.8,
+    "params_M": 26.3,
+    "weights_MB": 53.2,
+    "detections": 17,
+    "masks": null,
+    "mask_coverage": null,
+    "mean_conf": 0.725,
+    "sizes": {
+     "small": 0,
+     "medium": 9,
+     "large": 8
+    },
+    "consensus_recall": 0.882,
+    "only_this_model": 0,
+    "classes": {
+     "bowl": 8,
+     "carrot": 3,
+     "dining table": 1,
+     "spoon": 5
+    }
+   },
+   {
+    "model": "rtdetr-l",
+    "kind": "box",
+    "median_ms": 75.3,
+    "min_ms": 73.6,
+    "max_ms": 92.9,
+    "params_M": 33.0,
+    "weights_MB": 66.5,
+    "detections": 33,
+    "masks": null,
+    "mask_coverage": null,
+    "mean_conf": 0.713,
+    "sizes": {
+     "small": 7,
+     "medium": 15,
+     "large": 11
+    },
+    "consensus_recall": 1.0,
+    "only_this_model": 3,
+    "classes": {
+     "bowl": 13,
+     "broccoli": 1,
+     "carrot": 10,
+     "dining table": 1,
+     "refrigerator": 1,
+     "spoon": 7
+    }
+   },
+   {
+    "model": "yolo11n-seg",
+    "kind": "mask",
+    "median_ms": 12.1,
+    "min_ms": 11.7,
+    "max_ms": 12.9,
+    "params_M": 2.9,
+    "weights_MB": 6.2,
+    "detections": 8,
+    "masks": 8,
+    "mask_coverage": 0.216,
+    "mean_conf": 0.682,
+    "sizes": {
+     "small": 0,
+     "medium": 3,
+     "large": 5
+    },
+    "consensus_recall": 0.412,
+    "only_this_model": 1,
+    "classes": {
+     "bowl": 7,
+     "carrot": 1
+    }
+   },
+   {
+    "model": "yolo11m-seg",
+    "kind": "mask",
+    "median_ms": 56.3,
+    "min_ms": 54.9,
+    "max_ms": 57.3,
+    "params_M": 22.4,
+    "weights_MB": 45.4,
+    "detections": 18,
+    "masks": 18,
+    "mask_coverage": 0.662,
+    "mean_conf": 0.696,
+    "sizes": {
+     "small": 0,
+     "medium": 9,
+     "large": 9
+    },
+    "consensus_recall": 0.882,
+    "only_this_model": 0,
+    "classes": {
+     "bowl": 9,
+     "carrot": 3,
+     "dining table": 1,
+     "spoon": 5
+    }
+   },
+   {
+    "model": "yolo11l-seg",
+    "kind": "mask",
+    "median_ms": 65.4,
+    "min_ms": 65.3,
+    "max_ms": 65.8,
+    "params_M": 27.7,
+    "weights_MB": 56.1,
+    "detections": 21,
+    "masks": 21,
+    "mask_coverage": 0.7,
+    "mean_conf": 0.706,
+    "sizes": {
+     "small": 2,
+     "medium": 8,
+     "large": 11
+    },
+    "consensus_recall": 0.941,
+    "only_this_model": 0,
+    "classes": {
+     "bowl": 9,
+     "carrot": 5,
+     "dining table": 1,
+     "spoon": 6
+    }
+   },
+   {
+    "model": "yolo26n-seg",
+    "kind": "mask",
+    "median_ms": 11.3,
+    "min_ms": 10.6,
+    "max_ms": 13.4,
+    "params_M": 3.1,
+    "weights_MB": 6.7,
+    "detections": 7,
+    "masks": 7,
+    "mask_coverage": 0.431,
+    "mean_conf": 0.689,
+    "sizes": {
+     "small": 0,
+     "medium": 1,
+     "large": 6
+    },
+    "consensus_recall": 0.412,
+    "only_this_model": 0,
+    "classes": {
+     "bowl": 5,
+     "carrot": 1,
+     "dining table": 1
+    }
+   },
+   {
+    "model": "yolo26m-seg",
+    "kind": "mask",
+    "median_ms": 59.3,
+    "min_ms": 57.1,
+    "max_ms": 61.3,
+    "params_M": 27.1,
+    "weights_MB": 54.8,
+    "detections": 17,
+    "masks": 17,
+    "mask_coverage": 0.546,
+    "mean_conf": 0.704,
+    "sizes": {
+     "small": 0,
+     "medium": 10,
+     "large": 7
+    },
+    "consensus_recall": 0.882,
+    "only_this_model": 0,
+    "classes": {
+     "bowl": 7,
+     "carrot": 3,
+     "dining table": 1,
+     "spoon": 6
+    }
+   },
+   {
+    "model": "yolo26l-seg",
+    "kind": "mask",
+    "median_ms": 66.8,
+    "min_ms": 66.1,
+    "max_ms": 69.3,
+    "params_M": 31.5,
+    "weights_MB": 63.7,
+    "detections": 15,
+    "masks": 15,
+    "mask_coverage": 0.669,
+    "mean_conf": 0.724,
+    "sizes": {
+     "small": 1,
+     "medium": 8,
+     "large": 6
+    },
+    "consensus_recall": 0.824,
+    "only_this_model": 0,
+    "classes": {
+     "bowl": 6,
+     "carrot": 3,
+     "dining table": 1,
+     "spoon": 5
+    }
+   }
+  ]
+ },
+ "000000000315": {
+  "image": "000000000315.jpg",
+  "size": [
+   640,
+   427
+  ],
+  "consensus_objects": 11,
+  "models": [
+   {
+    "model": "Faster R-CNN MobileNetV3",
+    "kind": "box",
+    "median_ms": 124.1,
+    "min_ms": 106.4,
+    "max_ms": 128.5,
+    "params_M": 19.4,
+    "weights_MB": 77.8,
+    "detections": 21,
+    "masks": null,
+    "mask_coverage": null,
+    "mean_conf": 0.787,
+    "sizes": {
+     "small": 1,
+     "medium": 13,
+     "large": 7
+    },
+    "consensus_recall": 0.818,
+    "only_this_model": 2,
+    "classes": {
+     "chair": 3,
+     "handbag": 1,
+     "person": 9,
+     "umbrella": 8
+    }
+   },
+   {
+    "model": "Faster R-CNN R50-FPN v2",
+    "kind": "box",
+    "median_ms": 399.9,
+    "min_ms": 390.7,
+    "max_ms": 429.1,
+    "params_M": 43.7,
+    "weights_MB": 175.2,
+    "detections": 32,
+    "masks": null,
+    "mask_coverage": null,
+    "mean_conf": 0.777,
+    "sizes": {
+     "small": 2,
+     "medium": 17,
+     "large": 13
+    },
+    "consensus_recall": 0.909,
+    "only_this_model": 6,
+    "classes": {
+     "chair": 9,
+     "person": 10,
+     "umbrella": 13
+    }
+   },
+   {
+    "model": "Mask R-CNN R50-FPN v2",
+    "kind": "mask",
+    "median_ms": 770.0,
+    "min_ms": 723.4,
+    "max_ms": 847.3,
+    "params_M": 46.4,
+    "weights_MB": 185.8,
+    "detections": 32,
+    "masks": 32,
+    "mask_coverage": 0.279,
+    "mean_conf": 0.791,
+    "sizes": {
+     "small": 3,
+     "medium": 18,
+     "large": 11
+    },
+    "consensus_recall": 1.0,
+    "only_this_model": 6,
+    "classes": {
+     "chair": 7,
+     "handbag": 1,
+     "person": 12,
+     "umbrella": 12
+    }
+   },
+   {
+    "model": "yolo11n",
+    "kind": "box",
+    "median_ms": 6.0,
+    "min_ms": 5.7,
+    "max_ms": 6.2,
+    "params_M": 2.6,
+    "weights_MB": 5.6,
+    "detections": 6,
+    "masks": null,
+    "mask_coverage": null,
+    "mean_conf": 0.701,
+    "sizes": {
+     "small": 0,
+     "medium": 2,
+     "large": 4
+    },
+    "consensus_recall": 0.545,
+    "only_this_model": 0,
+    "classes": {
+     "person": 4,
+     "umbrella": 2
+    }
+   },
+   {
+    "model": "yolo11s",
+    "kind": "box",
+    "median_ms": 11.3,
+    "min_ms": 11.1,
+    "max_ms": 11.6,
+    "params_M": 9.5,
+    "weights_MB": 19.3,
+    "detections": 11,
+    "masks": null,
+    "mask_coverage": null,
+    "mean_conf": 0.662,
+    "sizes": {
+     "small": 0,
+     "medium": 6,
+     "large": 5
+    },
+    "consensus_recall": 0.818,
+    "only_this_model": 0,
+    "classes": {
+     "person": 4,
+     "umbrella": 7
+    }
+   },
+   {
+    "model": "yolo11m",
+    "kind": "box",
+    "median_ms": 28.5,
+    "min_ms": 28.2,
+    "max_ms": 29.3,
+    "params_M": 20.1,
+    "weights_MB": 40.7,
+    "detections": 16,
+    "masks": null,
+    "mask_coverage": null,
+    "mean_conf": 0.713,
+    "sizes": {
+     "small": 0,
+     "medium": 8,
+     "large": 8
+    },
+    "consensus_recall": 1.0,
+    "only_this_model": 0,
+    "classes": {
+     "chair": 3,
+     "handbag": 1,
+     "person": 4,
+     "umbrella": 8
+    }
+   },
+   {
+    "model": "yolo11l",
+    "kind": "box",
+    "median_ms": 41.6,
+    "min_ms": 40.1,
+    "max_ms": 42.9,
+    "params_M": 25.4,
+    "weights_MB": 51.4,
+    "detections": 13,
+    "masks": null,
+    "mask_coverage": null,
+    "mean_conf": 0.731,
+    "sizes": {
+     "small": 0,
+     "medium": 7,
+     "large": 6
+    },
+    "consensus_recall": 0.909,
+    "only_this_model": 0,
+    "classes": {
+     "handbag": 1,
+     "person": 4,
+     "umbrella": 8
+    }
+   },
+   {
+    "model": "yolo11x",
+    "kind": "box",
+    "median_ms": 87.2,
+    "min_ms": 85.6,
+    "max_ms": 90.8,
+    "params_M": 57.0,
+    "weights_MB": 114.6,
+    "detections": 17,
+    "masks": null,
+    "mask_coverage": null,
+    "mean_conf": 0.768,
+    "sizes": {
+     "small": 0,
+     "medium": 8,
+     "large": 9
+    },
+    "consensus_recall": 1.0,
+    "only_this_model": 0,
+    "classes": {
+     "chair": 3,
+     "handbag": 1,
+     "person": 5,
+     "umbrella": 8
+    }
+   },
+   {
+    "model": "yolo12n",
+    "kind": "box",
+    "median_ms": 9.6,
+    "min_ms": 9.6,
+    "max_ms": 9.7,
+    "params_M": 2.6,
+    "weights_MB": 5.6,
+    "detections": 2,
+    "masks": null,
+    "mask_coverage": null,
+    "mean_conf": 0.798,
+    "sizes": {
+     "small": 0,
+     "medium": 0,
+     "large": 2
+    },
+    "consensus_recall": 0.182,
+    "only_this_model": 0,
+    "classes": {
+     "person": 2
+    }
+   },
+   {
+    "model": "yolo12m",
+    "kind": "box",
+    "median_ms": 43.6,
+    "min_ms": 42.6,
+    "max_ms": 45.2,
+    "params_M": 20.2,
+    "weights_MB": 40.9,
+    "detections": 15,
+    "masks": null,
+    "mask_coverage": null,
+    "mean_conf": 0.698,
+    "sizes": {
+     "small": 0,
+     "medium": 6,
+     "large": 9
+    },
+    "consensus_recall": 1.0,
+    "only_this_model": 0,
+    "classes": {
+     "chair": 2,
+     "person": 4,
+     "umbrella": 9
+    }
+   },
+   {
+    "model": "yolo26n",
+    "kind": "box",
+    "median_ms": 7.9,
+    "min_ms": 7.8,
+    "max_ms": 8.3,
+    "params_M": 2.6,
+    "weights_MB": 5.5,
+    "detections": 5,
+    "masks": null,
+    "mask_coverage": null,
+    "mean_conf": 0.625,
+    "sizes": {
+     "small": 0,
+     "medium": 2,
+     "large": 3
+    },
+    "consensus_recall": 0.455,
+    "only_this_model": 0,
+    "classes": {
+     "chair": 1,
+     "person": 3,
+     "umbrella": 1
+    }
+   },
+   {
+    "model": "yolo26m",
+    "kind": "box",
+    "median_ms": 35.0,
+    "min_ms": 34.7,
+    "max_ms": 36.0,
+    "params_M": 21.9,
+    "weights_MB": 44.3,
+    "detections": 14,
+    "masks": null,
+    "mask_coverage": null,
+    "mean_conf": 0.726,
+    "sizes": {
+     "small": 0,
+     "medium": 8,
+     "large": 6
+    },
+    "consensus_recall": 0.909,
+    "only_this_model": 0,
+    "classes": {
+     "chair": 1,
+     "person": 4,
+     "umbrella": 9
+    }
+   },
+   {
+    "model": "yolo26l",
+    "kind": "box",
+    "median_ms": 44.0,
+    "min_ms": 43.3,
+    "max_ms": 44.5,
+    "params_M": 26.3,
+    "weights_MB": 53.2,
+    "detections": 15,
+    "masks": null,
+    "mask_coverage": null,
+    "mean_conf": 0.737,
+    "sizes": {
+     "small": 1,
+     "medium": 7,
+     "large": 7
+    },
+    "consensus_recall": 1.0,
+    "only_this_model": 0,
+    "classes": {
+     "chair": 2,
+     "person": 5,
+     "umbrella": 8
+    }
+   },
+   {
+    "model": "rtdetr-l",
+    "kind": "box",
+    "median_ms": 82.8,
+    "min_ms": 77.4,
+    "max_ms": 83.9,
+    "params_M": 33.0,
+    "weights_MB": 66.5,
+    "detections": 22,
+    "masks": null,
+    "mask_coverage": null,
+    "mean_conf": 0.682,
+    "sizes": {
+     "small": 1,
+     "medium": 11,
+     "large": 10
+    },
+    "consensus_recall": 0.909,
+    "only_this_model": 0,
+    "classes": {
+     "chair": 1,
+     "person": 8,
+     "umbrella": 13
+    }
+   },
+   {
+    "model": "yolo11n-seg",
+    "kind": "mask",
+    "median_ms": 10.1,
+    "min_ms": 9.7,
+    "max_ms": 10.2,
+    "params_M": 2.9,
+    "weights_MB": 6.2,
+    "detections": 7,
+    "masks": 7,
+    "mask_coverage": 0.119,
+    "mean_conf": 0.684,
+    "sizes": {
+     "small": 0,
+     "medium": 2,
+     "large": 5
+    },
+    "consensus_recall": 0.545,
+    "only_this_model": 0,
+    "classes": {
+     "person": 3,
+     "umbrella": 4
+    }
+   },
+   {
+    "model": "yolo11m-seg",
+    "kind": "mask",
+    "median_ms": 54.8,
+    "min_ms": 50.6,
+    "max_ms": 57.7,
+    "params_M": 22.4,
+    "weights_MB": 45.4,
+    "detections": 16,
+    "masks": 16,
+    "mask_coverage": 0.247,
+    "mean_conf": 0.713,
+    "sizes": {
+     "small": 0,
+     "medium": 8,
+     "large": 8
+    },
+    "consensus_recall": 1.0,
+    "only_this_model": 0,
+    "classes": {
+     "chair": 3,
+     "handbag": 1,
+     "person": 4,
+     "umbrella": 8
+    }
+   },
+   {
+    "model": "yolo11l-seg",
+    "kind": "mask",
+    "median_ms": 64.1,
+    "min_ms": 63.2,
+    "max_ms": 64.3,
+    "params_M": 27.7,
+    "weights_MB": 56.1,
+    "detections": 13,
+    "masks": 13,
+    "mask_coverage": 0.196,
+    "mean_conf": 0.731,
+    "sizes": {
+     "small": 0,
+     "medium": 7,
+     "large": 6
+    },
+    "consensus_recall": 0.909,
+    "only_this_model": 0,
+    "classes": {
+     "handbag": 1,
+     "person": 4,
+     "umbrella": 8
+    }
+   },
+   {
+    "model": "yolo26n-seg",
+    "kind": "mask",
+    "median_ms": 11.3,
+    "min_ms": 10.7,
+    "max_ms": 13.0,
+    "params_M": 3.1,
+    "weights_MB": 6.7,
+    "detections": 5,
+    "masks": 5,
+    "mask_coverage": 0.152,
+    "mean_conf": 0.663,
+    "sizes": {
+     "small": 0,
+     "medium": 1,
+     "large": 4
+    },
+    "consensus_recall": 0.455,
+    "only_this_model": 0,
+    "classes": {
+     "person": 3,
+     "umbrella": 2
+    }
+   },
+   {
+    "model": "yolo26m-seg",
+    "kind": "mask",
+    "median_ms": 58.6,
+    "min_ms": 57.4,
+    "max_ms": 59.4,
+    "params_M": 27.1,
+    "weights_MB": 54.8,
+    "detections": 16,
+    "masks": 16,
+    "mask_coverage": 0.291,
+    "mean_conf": 0.679,
+    "sizes": {
+     "small": 0,
+     "medium": 7,
+     "large": 9
+    },
+    "consensus_recall": 0.818,
+    "only_this_model": 0,
+    "classes": {
+     "chair": 3,
+     "handbag": 1,
+     "person": 4,
+     "umbrella": 8
+    }
+   },
+   {
+    "model": "yolo26l-seg",
+    "kind": "mask",
+    "median_ms": 71.7,
+    "min_ms": 65.2,
+    "max_ms": 74.8,
+    "params_M": 31.5,
+    "weights_MB": 63.7,
+    "detections": 15,
+    "masks": 15,
+    "mask_coverage": 0.226,
+    "mean_conf": 0.698,
+    "sizes": {
+     "small": 1,
+     "medium": 7,
+     "large": 7
+    },
+    "consensus_recall": 1.0,
+    "only_this_model": 0,
+    "classes": {
+     "chair": 1,
+     "handbag": 1,
+     "person": 5,
+     "umbrella": 8
+    }
+   }
+  ]
+ },
+ "bus": {
+  "image": "bus.jpg",
+  "size": [
+   810,
+   1080
+  ],
+  "consensus_objects": 5,
+  "models": [
+   {
+    "model": "Faster R-CNN MobileNetV3",
+    "kind": "box",
+    "median_ms": 123.8,
+    "min_ms": 106.1,
+    "max_ms": 128.9,
+    "params_M": 19.4,
+    "weights_MB": 77.8,
+    "detections": 5,
+    "masks": null,
+    "mask_coverage": null,
+    "mean_conf": 0.971,
+    "sizes": {
+     "small": 0,
+     "medium": 0,
+     "large": 5
+    },
+    "consensus_recall": 1.0,
+    "only_this_model": 0,
+    "classes": {
+     "bus": 1,
+     "person": 4
+    }
+   },
+   {
+    "model": "Faster R-CNN R50-FPN v2",
+    "kind": "box",
+    "median_ms": 485.4,
+    "min_ms": 439.1,
+    "max_ms": 499.6,
+    "params_M": 43.7,
+    "weights_MB": 175.2,
+    "detections": 6,
+    "masks": null,
+    "mask_coverage": null,
+    "mean_conf": 0.93,
+    "sizes": {
+     "small": 1,
+     "medium": 0,
+     "large": 5
+    },
+    "consensus_recall": 1.0,
+    "only_this_model": 1,
+    "classes": {
+     "bus": 1,
+     "person": 4,
+     "tie": 1
+    }
+   },
+   {
+    "model": "Mask R-CNN R50-FPN v2",
+    "kind": "mask",
+    "median_ms": 515.9,
+    "min_ms": 498.3,
+    "max_ms": 523.6,
+    "params_M": 46.4,
+    "weights_MB": 185.8,
+    "detections": 5,
+    "masks": 5,
+    "mask_coverage": 0.419,
+    "mean_conf": 0.996,
+    "sizes": {
+     "small": 0,
+     "medium": 0,
+     "large": 5
+    },
+    "consensus_recall": 1.0,
+    "only_this_model": 0,
+    "classes": {
+     "bus": 1,
+     "person": 4
+    }
+   },
+   {
+    "model": "yolo11n",
+    "kind": "box",
+    "median_ms": 7.8,
+    "min_ms": 7.7,
+    "max_ms": 8.1,
+    "params_M": 2.6,
+    "weights_MB": 5.6,
+    "detections": 5,
+    "masks": null,
+    "mask_coverage": null,
+    "mean_conf": 0.837,
+    "sizes": {
+     "small": 0,
+     "medium": 0,
+     "large": 5
+    },
+    "consensus_recall": 1.0,
+    "only_this_model": 0,
+    "classes": {
+     "bus": 1,
+     "person": 4
+    }
+   },
+   {
+    "model": "yolo11s",
+    "kind": "box",
+    "median_ms": 13.3,
+    "min_ms": 13.1,
+    "max_ms": 13.6,
+    "params_M": 9.5,
+    "weights_MB": 19.3,
+    "detections": 5,
+    "masks": null,
+    "mask_coverage": null,
+    "mean_conf": 0.849,
+    "sizes": {
+     "small": 0,
+     "medium": 0,
+     "large": 5
+    },
+    "consensus_recall": 1.0,
+    "only_this_model": 0,
+    "classes": {
+     "bus": 1,
+     "person": 4
+    }
+   },
+   {
+    "model": "yolo11m",
+    "kind": "box",
+    "median_ms": 36.7,
+    "min_ms": 34.7,
+    "max_ms": 37.9,
+    "params_M": 20.1,
+    "weights_MB": 40.7,
+    "detections": 5,
+    "masks": null,
+    "mask_coverage": null,
+    "mean_conf": 0.886,
+    "sizes": {
+     "small": 0,
+     "medium": 0,
+     "large": 5
+    },
+    "consensus_recall": 1.0,
+    "only_this_model": 0,
+    "classes": {
+     "bus": 1,
+     "person": 4
+    }
+   },
+   {
+    "model": "yolo11l",
+    "kind": "box",
+    "median_ms": 54.8,
+    "min_ms": 49.2,
+    "max_ms": 60.0,
+    "params_M": 25.4,
+    "weights_MB": 51.4,
+    "detections": 5,
+    "masks": null,
+    "mask_coverage": null,
+    "mean_conf": 0.893,
+    "sizes": {
+     "small": 0,
+     "medium": 0,
+     "large": 5
+    },
+    "consensus_recall": 1.0,
+    "only_this_model": 0,
+    "classes": {
+     "bus": 1,
+     "person": 4
+    }
+   },
+   {
+    "model": "yolo11x",
+    "kind": "box",
+    "median_ms": 138.6,
+    "min_ms": 118.0,
+    "max_ms": 163.9,
+    "params_M": 57.0,
+    "weights_MB": 114.6,
+    "detections": 5,
+    "masks": null,
+    "mask_coverage": null,
+    "mean_conf": 0.888,
+    "sizes": {
+     "small": 0,
+     "medium": 0,
+     "large": 5
+    },
+    "consensus_recall": 1.0,
+    "only_this_model": 0,
+    "classes": {
+     "bus": 1,
+     "person": 4
+    }
+   },
+   {
+    "model": "yolo12n",
+    "kind": "box",
+    "median_ms": 16.3,
+    "min_ms": 15.7,
+    "max_ms": 16.3,
+    "params_M": 2.6,
+    "weights_MB": 5.6,
+    "detections": 4,
+    "masks": null,
+    "mask_coverage": null,
+    "mean_conf": 0.879,
+    "sizes": {
+     "small": 0,
+     "medium": 0,
+     "large": 4
+    },
+    "consensus_recall": 0.8,
+    "only_this_model": 0,
+    "classes": {
+     "bus": 1,
+     "person": 3
+    }
+   },
+   {
+    "model": "yolo12m",
+    "kind": "box",
+    "median_ms": 82.9,
+    "min_ms": 80.5,
+    "max_ms": 89.1,
+    "params_M": 20.2,
+    "weights_MB": 40.9,
+    "detections": 5,
+    "masks": null,
+    "mask_coverage": null,
+    "mean_conf": 0.908,
+    "sizes": {
+     "small": 0,
+     "medium": 0,
+     "large": 5
+    },
+    "consensus_recall": 1.0,
+    "only_this_model": 0,
+    "classes": {
+     "bus": 1,
+     "person": 4
+    }
+   },
+   {
+    "model": "yolo26n",
+    "kind": "box",
+    "median_ms": 11.3,
+    "min_ms": 10.3,
+    "max_ms": 12.6,
+    "params_M": 2.6,
+    "weights_MB": 5.5,
+    "detections": 5,
+    "masks": null,
+    "mask_coverage": null,
+    "mean_conf": 0.823,
+    "sizes": {
+     "small": 0,
+     "medium": 0,
+     "large": 5
+    },
+    "consensus_recall": 1.0,
+    "only_this_model": 0,
+    "classes": {
+     "bus": 1,
+     "person": 4
+    }
+   },
+   {
+    "model": "yolo26m",
+    "kind": "box",
+    "median_ms": 57.2,
+    "min_ms": 55.0,
+    "max_ms": 58.5,
+    "params_M": 21.9,
+    "weights_MB": 44.3,
+    "detections": 5,
+    "masks": null,
+    "mask_coverage": null,
+    "mean_conf": 0.91,
+    "sizes": {
+     "small": 0,
+     "medium": 0,
+     "large": 5
+    },
+    "consensus_recall": 1.0,
+    "only_this_model": 0,
+    "classes": {
+     "bus": 1,
+     "person": 4
+    }
+   },
+   {
+    "model": "yolo26l",
+    "kind": "box",
+    "median_ms": 57.2,
+    "min_ms": 55.5,
+    "max_ms": 61.3,
+    "params_M": 26.3,
+    "weights_MB": 53.2,
+    "detections": 5,
+    "masks": null,
+    "mask_coverage": null,
+    "mean_conf": 0.897,
+    "sizes": {
+     "small": 0,
+     "medium": 0,
+     "large": 5
+    },
+    "consensus_recall": 1.0,
+    "only_this_model": 0,
+    "classes": {
+     "bus": 1,
+     "person": 4
+    }
+   },
+   {
+    "model": "rtdetr-l",
+    "kind": "box",
+    "median_ms": 79.7,
+    "min_ms": 78.3,
+    "max_ms": 81.8,
+    "params_M": 33.0,
+    "weights_MB": 66.5,
+    "detections": 5,
+    "masks": null,
+    "mask_coverage": null,
+    "mean_conf": 0.927,
+    "sizes": {
+     "small": 0,
+     "medium": 0,
+     "large": 5
+    },
+    "consensus_recall": 1.0,
+    "only_this_model": 0,
+    "classes": {
+     "bus": 1,
+     "person": 4
+    }
+   },
+   {
+    "model": "yolo11n-seg",
+    "kind": "mask",
+    "median_ms": 13.3,
+    "min_ms": 12.6,
+    "max_ms": 14.5,
+    "params_M": 2.9,
+    "weights_MB": 6.2,
+    "detections": 4,
+    "masks": 4,
+    "mask_coverage": 0.423,
+    "mean_conf": 0.867,
+    "sizes": {
+     "small": 0,
+     "medium": 0,
+     "large": 4
+    },
+    "consensus_recall": 0.8,
+    "only_this_model": 0,
+    "classes": {
+     "bus": 1,
+     "person": 3
+    }
+   },
+   {
+    "model": "yolo11m-seg",
+    "kind": "mask",
+    "median_ms": 63.0,
+    "min_ms": 61.6,
+    "max_ms": 64.9,
+    "params_M": 22.4,
+    "weights_MB": 45.4,
+    "detections": 5,
+    "masks": 5,
+    "mask_coverage": 0.437,
+    "mean_conf": 0.886,
+    "sizes": {
+     "small": 0,
+     "medium": 0,
+     "large": 5
+    },
+    "consensus_recall": 1.0,
+    "only_this_model": 0,
+    "classes": {
+     "bus": 1,
+     "person": 4
+    }
+   },
+   {
+    "model": "yolo11l-seg",
+    "kind": "mask",
+    "median_ms": 70.6,
+    "min_ms": 69.9,
+    "max_ms": 71.0,
+    "params_M": 27.7,
+    "weights_MB": 56.1,
+    "detections": 5,
+    "masks": 5,
+    "mask_coverage": 0.438,
+    "mean_conf": 0.893,
+    "sizes": {
+     "small": 0,
+     "medium": 0,
+     "large": 5
+    },
+    "consensus_recall": 1.0,
+    "only_this_model": 0,
+    "classes": {
+     "bus": 1,
+     "person": 4
+    }
+   },
+   {
+    "model": "yolo26n-seg",
+    "kind": "mask",
+    "median_ms": 15.2,
+    "min_ms": 14.8,
+    "max_ms": 15.6,
+    "params_M": 3.1,
+    "weights_MB": 6.7,
+    "detections": 5,
+    "masks": 5,
+    "mask_coverage": 0.423,
+    "mean_conf": 0.81,
+    "sizes": {
+     "small": 0,
+     "medium": 0,
+     "large": 5
+    },
+    "consensus_recall": 1.0,
+    "only_this_model": 0,
+    "classes": {
+     "bus": 1,
+     "person": 4
+    }
+   },
+   {
+    "model": "yolo26m-seg",
+    "kind": "mask",
+    "median_ms": 66.5,
+    "min_ms": 62.3,
+    "max_ms": 68.0,
+    "params_M": 27.1,
+    "weights_MB": 54.8,
+    "detections": 5,
+    "masks": 5,
+    "mask_coverage": 0.432,
+    "mean_conf": 0.888,
+    "sizes": {
+     "small": 0,
+     "medium": 0,
+     "large": 5
+    },
+    "consensus_recall": 1.0,
+    "only_this_model": 0,
+    "classes": {
+     "bus": 1,
+     "person": 4
+    }
+   },
+   {
+    "model": "yolo26l-seg",
+    "kind": "mask",
+    "median_ms": 75.8,
+    "min_ms": 73.2,
+    "max_ms": 76.8,
+    "params_M": 31.5,
+    "weights_MB": 63.7,
+    "detections": 5,
+    "masks": 5,
+    "mask_coverage": 0.438,
+    "mean_conf": 0.894,
+    "sizes": {
+     "small": 0,
+     "medium": 0,
+     "large": 5
+    },
+    "consensus_recall": 1.0,
+    "only_this_model": 0,
+    "classes": {
+     "bus": 1,
+     "person": 4
+    }
+   }
+  ]
+ },
+ "zidane": {
+  "image": "zidane.jpg",
+  "size": [
+   1280,
+   720
+  ],
+  "consensus_objects": 3,
+  "models": [
+   {
+    "model": "Faster R-CNN MobileNetV3",
+    "kind": "box",
+    "median_ms": 113.4,
+    "min_ms": 108.5,
+    "max_ms": 118.0,
+    "params_M": 19.4,
+    "weights_MB": 77.8,
+    "detections": 4,
+    "masks": null,
+    "mask_coverage": null,
+    "mean_conf": 0.833,
+    "sizes": {
+     "small": 0,
+     "medium": 0,
+     "large": 4
+    },
+    "consensus_recall": 1.0,
+    "only_this_model": 0,
+    "classes": {
+     "person": 2,
+     "tie": 2
+    }
+   },
+   {
+    "model": "Faster R-CNN R50-FPN v2",
+    "kind": "box",
+    "median_ms": 473.8,
+    "min_ms": 448.5,
+    "max_ms": 573.8,
+    "params_M": 43.7,
+    "weights_MB": 175.2,
+    "detections": 7,
+    "masks": null,
+    "mask_coverage": null,
+    "mean_conf": 0.77,
+    "sizes": {
+     "small": 0,
+     "medium": 1,
+     "large": 6
+    },
+    "consensus_recall": 1.0,
+    "only_this_model": 2,
+    "classes": {
+     "person": 4,
+     "tennis racket": 1,
+     "tie": 2
+    }
+   },
+   {
+    "model": "Mask R-CNN R50-FPN v2",
+    "kind": "mask",
+    "median_ms": 707.3,
+    "min_ms": 666.1,
+    "max_ms": 878.2,
+    "params_M": 46.4,
+    "weights_MB": 185.8,
+    "detections": 7,
+    "masks": 7,
+    "mask_coverage": 0.499,
+    "mean_conf": 0.803,
+    "sizes": {
+     "small": 0,
+     "medium": 1,
+     "large": 6
+    },
+    "consensus_recall": 1.0,
+    "only_this_model": 1,
+    "classes": {
+     "person": 4,
+     "tie": 3
+    }
+   },
+   {
+    "model": "yolo11n",
+    "kind": "box",
+    "median_ms": 7.0,
+    "min_ms": 6.8,
+    "max_ms": 7.4,
+    "params_M": 2.6,
+    "weights_MB": 5.6,
+    "detections": 2,
+    "masks": null,
+    "mask_coverage": null,
+    "mean_conf": 0.807,
+    "sizes": {
+     "small": 0,
+     "medium": 0,
+     "large": 2
+    },
+    "consensus_recall": 0.667,
+    "only_this_model": 0,
+    "classes": {
+     "person": 2
+    }
+   },
+   {
+    "model": "yolo11s",
+    "kind": "box",
+    "median_ms": 12.9,
+    "min_ms": 12.5,
+    "max_ms": 13.8,
+    "params_M": 9.5,
+    "weights_MB": 19.3,
+    "detections": 3,
+    "masks": null,
+    "mask_coverage": null,
+    "mean_conf": 0.849,
+    "sizes": {
+     "small": 0,
+     "medium": 0,
+     "large": 3
+    },
+    "consensus_recall": 1.0,
+    "only_this_model": 0,
+    "classes": {
+     "person": 2,
+     "tie": 1
+    }
+   },
+   {
+    "model": "yolo11m",
+    "kind": "box",
+    "median_ms": 30.1,
+    "min_ms": 29.5,
+    "max_ms": 31.1,
+    "params_M": 20.1,
+    "weights_MB": 40.7,
+    "detections": 4,
+    "masks": null,
+    "mask_coverage": null,
+    "mean_conf": 0.823,
+    "sizes": {
+     "small": 0,
+     "medium": 0,
+     "large": 4
+    },
+    "consensus_recall": 1.0,
+    "only_this_model": 0,
+    "classes": {
+     "person": 2,
+     "tie": 2
+    }
+   },
+   {
+    "model": "yolo11l",
+    "kind": "box",
+    "median_ms": 40.3,
+    "min_ms": 38.3,
+    "max_ms": 43.3,
+    "params_M": 25.4,
+    "weights_MB": 51.4,
+    "detections": 3,
+    "masks": null,
+    "mask_coverage": null,
+    "mean_conf": 0.904,
+    "sizes": {
+     "small": 0,
+     "medium": 0,
+     "large": 3
+    },
+    "consensus_recall": 1.0,
+    "only_this_model": 0,
+    "classes": {
+     "person": 2,
+     "tie": 1
+    }
+   },
+   {
+    "model": "yolo11x",
+    "kind": "box",
+    "median_ms": 93.3,
+    "min_ms": 89.1,
+    "max_ms": 123.7,
+    "params_M": 57.0,
+    "weights_MB": 114.6,
+    "detections": 4,
+    "masks": null,
+    "mask_coverage": null,
+    "mean_conf": 0.879,
+    "sizes": {
+     "small": 0,
+     "medium": 0,
+     "large": 4
+    },
+    "consensus_recall": 1.0,
+    "only_this_model": 0,
+    "classes": {
+     "person": 2,
+     "tie": 2
+    }
+   },
+   {
+    "model": "yolo12n",
+    "kind": "box",
+    "median_ms": 13.1,
+    "min_ms": 12.6,
+    "max_ms": 13.1,
+    "params_M": 2.6,
+    "weights_MB": 5.6,
+    "detections": 2,
+    "masks": null,
+    "mask_coverage": null,
+    "mean_conf": 0.859,
+    "sizes": {
+     "small": 0,
+     "medium": 0,
+     "large": 2
+    },
+    "consensus_recall": 0.667,
+    "only_this_model": 0,
+    "classes": {
+     "person": 2
+    }
+   },
+   {
+    "model": "yolo12m",
+    "kind": "box",
+    "median_ms": 62.4,
+    "min_ms": 59.7,
+    "max_ms": 64.5,
+    "params_M": 20.2,
+    "weights_MB": 40.9,
+    "detections": 3,
+    "masks": null,
+    "mask_coverage": null,
+    "mean_conf": 0.835,
+    "sizes": {
+     "small": 0,
+     "medium": 0,
+     "large": 3
+    },
+    "consensus_recall": 1.0,
+    "only_this_model": 0,
+    "classes": {
+     "person": 2,
+     "tie": 1
+    }
+   },
+   {
+    "model": "yolo26n",
+    "kind": "box",
+    "median_ms": 9.4,
+    "min_ms": 9.1,
+    "max_ms": 10.8,
+    "params_M": 2.6,
+    "weights_MB": 5.5,
+    "detections": 3,
+    "masks": null,
+    "mask_coverage": null,
+    "mean_conf": 0.773,
+    "sizes": {
+     "small": 0,
+     "medium": 0,
+     "large": 3
+    },
+    "consensus_recall": 1.0,
+    "only_this_model": 0,
+    "classes": {
+     "person": 2,
+     "tie": 1
+    }
+   },
+   {
+    "model": "yolo26m",
+    "kind": "box",
+    "median_ms": 40.8,
+    "min_ms": 39.1,
+    "max_ms": 42.0,
+    "params_M": 21.9,
+    "weights_MB": 44.3,
+    "detections": 3,
+    "masks": null,
+    "mask_coverage": null,
+    "mean_conf": 0.905,
+    "sizes": {
+     "small": 0,
+     "medium": 0,
+     "large": 3
+    },
+    "consensus_recall": 1.0,
+    "only_this_model": 0,
+    "classes": {
+     "person": 2,
+     "tie": 1
+    }
+   },
+   {
+    "model": "yolo26l",
+    "kind": "box",
+    "median_ms": 45.1,
+    "min_ms": 43.8,
+    "max_ms": 45.5,
+    "params_M": 26.3,
+    "weights_MB": 53.2,
+    "detections": 3,
+    "masks": null,
+    "mask_coverage": null,
+    "mean_conf": 0.909,
+    "sizes": {
+     "small": 0,
+     "medium": 0,
+     "large": 3
+    },
+    "consensus_recall": 1.0,
+    "only_this_model": 0,
+    "classes": {
+     "person": 2,
+     "tie": 1
+    }
+   },
+   {
+    "model": "rtdetr-l",
+    "kind": "box",
+    "median_ms": 83.3,
+    "min_ms": 82.3,
+    "max_ms": 85.3,
+    "params_M": 33.0,
+    "weights_MB": 66.5,
+    "detections": 4,
+    "masks": null,
+    "mask_coverage": null,
+    "mean_conf": 0.893,
+    "sizes": {
+     "small": 0,
+     "medium": 0,
+     "large": 4
+    },
+    "consensus_recall": 1.0,
+    "only_this_model": 0,
+    "classes": {
+     "person": 2,
+     "tie": 2
+    }
+   },
+   {
+    "model": "yolo11n-seg",
+    "kind": "mask",
+    "median_ms": 10.9,
+    "min_ms": 10.5,
+    "max_ms": 11.0,
+    "params_M": 2.9,
+    "weights_MB": 6.2,
+    "detections": 2,
+    "masks": 2,
+    "mask_coverage": 0.413,
+    "mean_conf": 0.871,
+    "sizes": {
+     "small": 0,
+     "medium": 0,
+     "large": 2
+    },
+    "consensus_recall": 0.667,
+    "only_this_model": 0,
+    "classes": {
+     "person": 2
+    }
+   },
+   {
+    "model": "yolo11m-seg",
+    "kind": "mask",
+    "median_ms": 55.5,
+    "min_ms": 54.6,
+    "max_ms": 55.5,
+    "params_M": 22.4,
+    "weights_MB": 45.4,
+    "detections": 4,
+    "masks": 4,
+    "mask_coverage": 0.433,
+    "mean_conf": 0.823,
+    "sizes": {
+     "small": 0,
+     "medium": 0,
+     "large": 4
+    },
+    "consensus_recall": 1.0,
+    "only_this_model": 0,
+    "classes": {
+     "person": 2,
+     "tie": 2
+    }
+   },
+   {
+    "model": "yolo11l-seg",
+    "kind": "mask",
+    "median_ms": 60.2,
+    "min_ms": 59.0,
+    "max_ms": 60.4,
+    "params_M": 27.7,
+    "weights_MB": 56.1,
+    "detections": 3,
+    "masks": 3,
+    "mask_coverage": 0.431,
+    "mean_conf": 0.904,
+    "sizes": {
+     "small": 0,
+     "medium": 0,
+     "large": 3
+    },
+    "consensus_recall": 1.0,
+    "only_this_model": 0,
+    "classes": {
+     "person": 2,
+     "tie": 1
+    }
+   },
+   {
+    "model": "yolo26n-seg",
+    "kind": "mask",
+    "median_ms": 13.1,
+    "min_ms": 12.5,
+    "max_ms": 15.0,
+    "params_M": 3.1,
+    "weights_MB": 6.7,
+    "detections": 3,
+    "masks": 3,
+    "mask_coverage": 0.431,
+    "mean_conf": 0.777,
+    "sizes": {
+     "small": 0,
+     "medium": 0,
+     "large": 3
+    },
+    "consensus_recall": 1.0,
+    "only_this_model": 0,
+    "classes": {
+     "person": 2,
+     "tie": 1
+    }
+   },
+   {
+    "model": "yolo26m-seg",
+    "kind": "mask",
+    "median_ms": 52.9,
+    "min_ms": 52.6,
+    "max_ms": 53.8,
+    "params_M": 27.1,
+    "weights_MB": 54.8,
+    "detections": 3,
+    "masks": 3,
+    "mask_coverage": 0.426,
+    "mean_conf": 0.87,
+    "sizes": {
+     "small": 0,
+     "medium": 0,
+     "large": 3
+    },
+    "consensus_recall": 1.0,
+    "only_this_model": 0,
+    "classes": {
+     "person": 2,
+     "tie": 1
+    }
+   },
+   {
+    "model": "yolo26l-seg",
+    "kind": "mask",
+    "median_ms": 67.3,
+    "min_ms": 64.5,
+    "max_ms": 67.9,
+    "params_M": 31.5,
+    "weights_MB": 63.7,
+    "detections": 4,
+    "masks": 4,
+    "mask_coverage": 0.431,
+    "mean_conf": 0.797,
+    "sizes": {
+     "small": 0,
+     "medium": 0,
+     "large": 4
+    },
+    "consensus_recall": 1.0,
+    "only_this_model": 0,
+    "classes": {
+     "person": 2,
+     "tie": 2
+    }
+   }
+  ]
+ }
+}
